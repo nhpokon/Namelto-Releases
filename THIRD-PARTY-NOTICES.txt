@@ -1,0 +1,65 @@
+Namelto — Third-Party Notices
+対象バージョン：v0.2.1
+配布構成：Windows x64 / Framework-dependent / .NET Runtime非同梱
+
+1. Namelto本体と第三者部分
+
+Namelto固有のプログラム及びアプリアイコン等は、プロプライエタリソフトウェアとして提供します。
+Copyright © 2026 nhpokon
+Namelto本体の利用条件は、同梱のEULA.txtを参照してください。
+
+以下のライセンスは、それぞれの第三者部分に適用されます。Namelto全体をMITライセンスで提供するものではありません。NameltoのEULAは、第三者ライセンスで認められる権利を制限しません。
+
+2. Microsoft / .NET apphost
+
+対象ファイル：Namelto.App.exeに組み込まれた.NET起動用apphost部分
+由来：Microsoft.NETCore.App.Host.win-x64 10.0.12
+ライセンス：MIT
+
+apphostは、利用者のPCにインストールされた.NETを使ってNameltoを起動するためのコンポーネントです。以下に.NETの著作権表示及びMITライセンス全文を掲載します。
+
+The MIT License (MIT)
+
+Copyright (c) .NET Foundation and Contributors
+
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+3. 別途インストールする.NET Desktop Runtime
+
+この配布構成には.NET Desktop Runtime本体（.NET Runtime及びWinFormsを含む）を同梱しません。利用者がMicrosoftから別途入手するRuntimeには、その配布物に付属するライセンス及び第三者通知が適用されます。
+Runtime全体のライセンス・第三者通知は本書へ転載していません。NameltoのEULA及び本書は、別途入手したRuntimeの利用条件を変更するものではありません。
+
+4. 公式参照元
+
+Microsoft.NETCore.App.Host.win-x64 10.0.12（パッケージのMITライセンス表示）
+https://www.nuget.org/packages/Microsoft.NETCore.App.Host.win-x64/10.0.12
+
+.NET Runtime 10.0.12 LICENSE.TXT（上記MITライセンス全文）
+https://github.com/dotnet/runtime/blob/v10.0.12/LICENSE.TXT
+
+.NET License Information（アプリへ組み込まれる起動用ホストとライセンスの説明）
+https://github.com/dotnet/core/blob/main/license-information.md
+
+.NET Windows License Information（Windowsバイナリ別のライセンス区分）
+https://github.com/dotnet/core/blob/main/license-information-windows.md
+
+.NET Runtime 10.0.12 Third-Party Notices（Runtime全体の公式通知）
+https://github.com/dotnet/runtime/blob/v10.0.12/THIRD-PARTY-NOTICES.TXT
